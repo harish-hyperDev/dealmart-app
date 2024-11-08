@@ -27,14 +27,14 @@ function Items() {
         <>
             <p className="cat">Categories Available</p>
             <div className="categories" ref={scrollContainerRef}>
-                <div className="items"><Item image="/grocery.png" title="Groceries" /></div>
-                <div className="items"><Item image="/vegetable.png" title="Vegetables" /></div>
-                <div className="items"><Item image="/fruits.png" title="Fruits" /></div>
-                <div className="items"><Item image="/dairy-products.png" title="Dairy Products" /></div>
-                <div className="items"><Item image="/barbecue.png" title="Meat" /></div>
-                <div className="items"><Item image="/candy.png" title="Sweets" /></div>
-                <div className="items"><Item image="/burger.png" title="Food" /></div>
-                <div className="items"><Item image="/bakery.png" title="Bakery" /></div>
+                <div className="items"><Item image="../public/grocery.png" title="Groceries" /></div>
+                <div className="items"><Item image="../public/vegetable.png" title="Vegetables" /></div>
+                <div className="items"><Item image="../public/fruits.png" title="Fruits" /></div>
+                <div className="items"><Item image="../public/dairy-products.png" title="Dairy Products" /></div>
+                <div className="items"><Item image="../public/barbecue.png" title="Meat" /></div>
+                <div className="items"><Item image="../public/candy.png" title="Sweets" /></div>
+                <div className="items"><Item image="../public/burger.png" title="Food" /></div>
+                <div className="items"><Item image="../public/bakery.png" title="Bakery" /></div>
             </div>
         </>
     );
