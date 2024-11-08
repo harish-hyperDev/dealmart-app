@@ -1,6 +1,6 @@
 /* Base styles */
 .background {
-  background-image: url('C:/Users/rajab/OneDrive/Desktop/Ideal mart/idealmart/public/image1.png');
+  background-image: url('../public/image1.png');
   background-size: cover;
   border-radius: 20px;
   background-position: center;
