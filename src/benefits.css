@@ -1,0 +1,113 @@
+.keybenefits {
+    display: flex;
+    margin-top: 0px;
+}
+
+.keyimg {
+    max-width: 100%;
+    aspect-ratio: 4 / 2.5; /* Maintain the aspect ratio */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin: 10px; /* Space between images */
+}
+
+.img1 {
+    width: 350px;  /* Fixed size for the image */
+    height: 350px; /* Fixed size for the image */
+}
+
+.img2 {
+    width: 500px;  /* Fixed size for the image */
+    height: 500px; /* Fixed size for the image */
+}
+
+.keydata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin: 10px; /* Add spacing between text and images */
+}
+
+.kb {
+    font-size: 30px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.ert {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.keypara {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+/* Responsive adjustments for tablets and phones */
+@media (max-width: 768px) { /* Tablet and below */
+    .keybenefits {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .keyimg, .keydata {
+        width: 100%; /* Ensure full width on smaller screens */
+        text-align: center; /* Center text for better presentation */
+    }
+
+    .keyimg {
+        flex-wrap: wrap;
+        margin: 20px 0; /* Adjust vertical spacing between images */
+        flex-direction: column;
+    }
+
+    .kb {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .ert {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .keypara {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) { /* Phone and below */
+    .kb {
+        font-size: 20px; /* Further adjust font size for smaller screens */
+    }
+    .keyimg {
+        flex-wrap: wrap;
+        margin: 20px 0; /* Adjust vertical spacing between images */
+        flex-direction: column;
+    }
+    .keybenefits{
+        flex-wrap: wrap;
+    }
+    .img2{
+     display: none;
+    }
+
+
+    .ert {
+        font-size: 1.8rem; /* Further adjust font size for smaller screens */
+    }
+
+    .keypara {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+
+    .img1 {
+        width: 80%; /* Adjust image width for phones */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .img2 {
+        width: 80%; /* Adjust image width for phones */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

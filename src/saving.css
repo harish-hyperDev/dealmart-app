@@ -1,0 +1,14 @@
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.datas{
+    font-size: 30px;
+}
+.des{
+    font-size: 16px;
+    opacity: 0.7;
+}
+

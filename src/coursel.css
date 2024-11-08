@@ -1,0 +1,192 @@
+/* Base styles */
+.background {
+  background-image: url('C:/Users/rajab/OneDrive/Desktop/Ideal mart/idealmart/public/image1.png');
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  margin: 40px 20px 20px;
+  height: 80vh;
+}
+
+.heading {
+  text-align: start;
+  font-size: 65px;
+  font-weight: 700;
+  width: 70%;
+  font-family: "Playwrite GB S", cursive;
+  margin-left: 100px;
+  padding-top: 60px;
+}
+
+.heading-sm {
+  text-align: start;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.heading-mm {
+  text-align: start;
+  font-size: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 100px;
+  height: 40px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  width: 150px;
+  margin-top: 30px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .heading {
+      font-size: 50px;
+      margin-left: 50px;
+  }
+  .heading-sm {
+      font-size: 24px;
+      margin-left: 50px;
+  }
+  .heading-mm {
+      font-size: 1.8rem;
+      margin-left: 50px;
+  }
+  .button {
+      margin-left: 50px;
+      width: 130px;
+  }
+}
+
+@media (max-width: 992px) {
+  .background {
+      margin: 30px 15px;
+      height: 70vh;
+  }
+  .heading {
+      font-size: 45px;
+      margin-left: 30px;
+  }
+  .heading-sm {
+      font-size: 22px;
+      margin-left: 30px;
+  }
+  .heading-mm {
+      font-size: 1.7rem;
+      margin-left: 30px;
+  }
+  .button {
+      margin-left: 30px;
+      width: 120px;
+  }
+  .button12 {
+      width: 120px;
+      margin-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+      margin: 20px 10px;
+      height: 60vh;
+  }
+  .heading {
+      font-size: 40px;
+      margin-left: 20px;
+  }
+  .heading-sm {
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .heading-mm {
+      font-size: 1.6rem;
+      margin-left: 20px;
+  }
+  .button, .button12 {
+      width: 100px;
+      margin-left: 10px;
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .background {
+      margin: 15px 5px;
+      height: 50vh;
+  }
+  .heading {
+      font-size: 35px;
+      margin-left: 10px;
+      padding-top: 30px;
+  }
+  .heading-sm, .heading-mm {
+      font-size: 18px;
+      margin-left: 10px;
+  }
+  .button, .button12 {
+      width: 90px;
+      height: 35px;
+      font-size: 12px;
+      margin-left: 5px;
+  }
+  .icon {
+      font-size: 1rem;
+      
+  }
+}/* Basic styling for the button and text */
+.button12 {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 3vw; /* Responsive font size using viewport width */
+    text-align: center;
+    gap: 5px;
+}
+
+.button12 .icon {
+    font-size: 1.5em;
+}
+
+.button-text {
+    font-size: 1em; /* You can adjust this if needed */
+    line-height: 1.2;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    .button12 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .button12 {
+        font-size: 1em;
+    }
+}
+

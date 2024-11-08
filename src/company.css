@@ -1,0 +1,17 @@
+.grp-div{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 60px 20px 20px 10px;
+    flex-wrap: wrap;
+}
+.div1-img{
+  width: 250px;
+}
+.div2-head{
+font-size: 25px;
+font-weight: 600;
+}
+.x-p:hover{
+    transform: translateX(8px);
+    }

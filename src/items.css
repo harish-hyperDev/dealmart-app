@@ -1,0 +1,89 @@
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 20px 20px 20px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 20px; /* Adds space between items */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding-bottom: 10px; /* Space for scrollbar */
+}
+
+.items {
+    flex: 0 0 auto; /* Prevents items from wrapping */
+    width: 150px;
+    height: 200px;
+    background-color:  #F3F8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.items:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(173, 225, 184);
+}
+
+.cat {
+    font-size: 40px;
+    margin: 0px 0px 20px 20px;
+}
+
+@media (max-width: 768px) {
+    .items {
+        width: 120px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cat {
+        font-size: 24px;
+    }
+    .items {
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+    }
+}
+/* items.css */
+.categories {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    white-space: nowrap;
+}
+
+.items {
+    flex: 0 0 auto; /* Keeps items aligned horizontally */
+    margin: 0 10px;
+}
+
+.item-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+/* Hide scrollbar for the categories container */
+.categories {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.categories {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+

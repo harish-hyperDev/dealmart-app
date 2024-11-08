@@ -1,0 +1,41 @@
+.container {
+    overflow: hidden; /* Keeps overflowed content hidden */
+    width: 100%; /* Container width */
+    margin-top: 60px;
+}
+
+.rslide {
+    display: flex;
+    gap: 20px;
+    width: calc(350px * 8); /* Adjusted to match .slide width */
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-350px * 4)); /* Scrolls 4 slides */
+    }
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 350px; /* Match width of each slide */
+    height: 180px;
+}
+.wou{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.slide:hover{
+    border: 0.5px solid rgba(5, 129, 94, 0.3);
+}
