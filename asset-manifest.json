@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dealmart-app/static/css/main.12abb5b7.css",
-    "main.js": "/dealmart-app/static/js/main.d4ced8dd.js",
+    "main.js": "/dealmart-app/static/js/main.f1306a4b.js",
     "static/js/453.04c21bb6.chunk.js": "/dealmart-app/static/js/453.04c21bb6.chunk.js",
     "static/media/image1.png": "/dealmart-app/static/media/image1.ac978d2a717c350c896d.png",
     "index.html": "/dealmart-app/index.html",
     "main.12abb5b7.css.map": "/dealmart-app/static/css/main.12abb5b7.css.map",
-    "main.d4ced8dd.js.map": "/dealmart-app/static/js/main.d4ced8dd.js.map",
+    "main.f1306a4b.js.map": "/dealmart-app/static/js/main.f1306a4b.js.map",
     "453.04c21bb6.chunk.js.map": "/dealmart-app/static/js/453.04c21bb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12abb5b7.css",
-    "static/js/main.d4ced8dd.js"
+    "static/js/main.f1306a4b.js"
   ]
 }
